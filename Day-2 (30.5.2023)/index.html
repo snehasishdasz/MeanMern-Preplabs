@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">About US</a>
+        <nav id="nav1">
+            <a href="#">Contact</a>
+            <a href="#">Login/Signup</a>
+        </nav>
+    </nav>
+
+    <div class="container">
+
+        <table>
+            <tr>
+                <th>Sno</th>
+                <th>Name</th>
+                <th>SIC</th>
+                <th>Gender</th>
+                <th>Phone no.</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Snehasish</td>
+                <td>20bcsb13</td>
+                <td>Male</td>
+                <td>992741963</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sanjeet</td>
+                <td>23Gfrr</td>
+                <td>Male</td>
+                <td>874963852</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shakti</td>
+                <td>2cdfghgh</td>
+                <td>Male</td>
+                <td>787416741</td>
+            </tr>
+        </table>
+    </div>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <div class="container2">
+        <img id="img1"
+            src="https://images.pexels.com/photos/2948636/pexels-photo-2948636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <P id="jump">HELLO EVERYONE</P>
+    </div>
+    <button id="view_image" ">View Image</button>
+    <button id=" remove_pic">Remove Image</button>
+
+    <div id="show_pic">
+        <img src="" alt="">
+    </div>
+
+    <div id="show">
+        <textarea name="" id="content" cols="200" rows="5"></textarea><br>
+        <button id="clickable1">Show</button>
+        <button id="clickable2">Remove</button>
+    </div><br>
+
+    <hr>
+    <div class="center">
+        <button onclick="add()">Add card</button>
+        <button onclick="remove()">Remove all</button>
+    </div>
+    <b style="margin-left: 1em;font-size: 1.5em; color: white;">Flex box : </b>
+    <div id="content1"></div>
+    <b style="margin-left: 1em;font-size: 1.5em; color: white;">Grid system : </b>
+    <div id="content2"></div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
