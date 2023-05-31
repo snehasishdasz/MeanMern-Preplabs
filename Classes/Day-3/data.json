@@ -1,0 +1,34 @@
+{
+    "myData":[
+        {
+            "image":"https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/6408f6e7b5811271dc883aa8_batman-min.png",
+            "title":"Batman",
+            "rating":5
+        },
+        {
+            "image":"https://i.etsystatic.com/13367669/r/il/db21fd/2198543930/il_570xN.2198543930_4qne.jpg",
+            "title":"EndGame",
+            "rating":5
+        },
+        {
+            "image":"https://m.media-amazon.com/images/I/71Jxq2p5YWL._AC_UF894,1000_QL80_.jpg",
+            "title":"Joker",
+            "rating":5
+        },
+        {
+            "image":"https://i.etsystatic.com/18242346/r/il/fd61f8/2933715225/il_570xN.2933715225_a913.jpg",
+            "title":"Wanda",
+            "rating":5
+        },
+        {
+            "image":"https://s.yimg.com/ny/api/res/1.2/ZzAHlDHi8a2xdBRRbruaYQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTkyOA--/https://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d05a3f087fa57f6d41b865d53a42a5f5",
+            "title":"MoonLight",
+            "rating":5
+        },
+        {
+            "image":"https://lumiere-a.akamaihd.net/v1/images/p_blackwidow_21043_v2_6d1b73b8.jpeg?region=0%2C0%2C540%2C810",
+            "title":"BlackWidow",
+            "rating":5
+        }
+]
+}
