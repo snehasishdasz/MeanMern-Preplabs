@@ -1,0 +1,29 @@
+{
+  "myData": [
+    {
+      "id": 1685610377198,
+      "email": "snehasishdas872@gmail.com",
+      "pass": "123456789"
+    },
+    {
+      "id": 1685610586401,
+      "email": "sellcranel@gmail.com",
+      "pass": "25897"
+    },
+    {
+      "id": 1685610946283,
+      "email": "cse.20bcsb13@silicon.ac.in",
+      "pass": "789456123"
+    },
+    {
+      "id": 1685646656190,
+      "email": "abc@gmail.com",
+      "pass": "123"
+    },
+    {
+      "id": 1685646841997,
+      "email": "xyzz@gmail.com",
+      "pass": "123"
+    }
+  ]
+}

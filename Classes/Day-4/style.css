@@ -1,0 +1,74 @@
+nav {
+    background-color: #000000;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav a:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: #000000;
+}
+nav #nav1 {
+    background-color: #000000;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+nav #nav1 a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav #nav1 a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    color: white;
+}
+
+nav #nav1 a:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: #000000;
+} 
+#showmovies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px
+}
+#showmovies img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+
+}
+h3{
+    color: rgb(0, 0, 0);
+    
+    font-size: 25px;
+}
+div{
+    border: 1px solid;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 3px 3px gray;
+}
+body{    
+    background: rgb(2,0,36);
+    background: linear-gradient(208deg, rgba(2,0,36,1) 0%, rgba(15,136,129,1) 36%, rgba(0,212,255,1) 67%);
+}
+

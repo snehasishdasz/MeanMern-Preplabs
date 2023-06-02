@@ -1,0 +1,42 @@
+{
+  "myData": [
+    {
+      "id": 1685610586401,
+      "email": "sellcranel@gmail.com",
+      "pass": "25897"
+    },
+    {
+      "id": 1685610946283,
+      "email": "cse.20bcsb13@silicon.ac.in",
+      "pass": "789456123"
+    },
+    {
+      "id": 1685651916379,
+      "name": "Snehasish Das",
+      "email": "sellcranel@gmail.com",
+      "num": "7326048411",
+      "pass": "abcd"
+    },
+    {
+      "id": 1685653236369,
+      "name": "Snehasish",
+      "email": "sellcranel@gmail.com",
+      "num": "789456123",
+      "pass": "789456"
+    },
+    {
+      "id": 1685657544461,
+      "name": "XYZ",
+      "email": "xyz@gmail.com",
+      "num": "752955915",
+      "pass": "xyz"
+    },
+    {
+      "id": 1685664680942,
+      "name": "Snehasish Das",
+      "email": "snehasishdas872@gmail.com",
+      "num": "7326048411",
+      "pass": "xyz@1234"
+    }
+  ]
+}

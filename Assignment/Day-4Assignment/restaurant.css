@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+nav {
+    background-color: #4b4a4a;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav a:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: #000000;
+}
+nav #nav1 {
+    background-color: #494848;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+nav #nav1 a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav #nav1 a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    color: white;
+}
+nav #nav1 a:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: #000000;
+}
+#heading{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #595e16;
+    padding-top: 5px;
+} 
+#food{
+    align-items: center;
+    justify-content: center;
+    padding-left: 90px;
+    padding-right: 70px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#food img{
+    width: 290px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 6px 11px 9px 1px #b2a71a;  
+}
+#food h3{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+#food p{
+    margin-right: 40px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+    background: #292927;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 1rem;
+}
+.view_button, .remove_button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+    /* border-radius: 1rem; */
+    cursor: pointer;
+    padding:10px;
+}
+.view_button{
+    margin-right: 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 2px rgb(193, 239, 13) solid;
+}
+.remove_button{
+    font-weight: 400;
+    background-color: yellow;
+    border: 2px rgb(253, 0, 0) solid;
+}
+.view_button:hover{
+    background-color: white;
+    color: black;
+}
+.remove_button:hover{
+    color: #fff;
+    background-color: black;
+}
+.nav-bg{
+    background: #595e16;
+    background-size: cover;
+}
+.text-footer{
+    text-align: center;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.nav-bg p{
+    font-size: 20px;
+}
