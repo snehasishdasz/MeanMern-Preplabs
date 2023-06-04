@@ -49,6 +49,16 @@
       "age": "21",
       "nationality": "India",
       "passport": "456723456745"
+    },
+    {
+      "id": 1685891167999,
+      "name": "Amlan",
+      "email": "xyz@gmail.com",
+      "pass": "123456",
+      "gender": "Male",
+      "age": "21",
+      "nationality": "India",
+      "passport": "2345676543345"
     }
   ],
   "data": [
@@ -58,7 +68,7 @@
       "destination": "Chennai",
       "boarding": "10:30",
       "departure": "11:15",
-      "seatsAvailable": 30,
+      "seatsAvailable": 29,
       "price": "1700.00",
       "id": 1
     },
@@ -71,6 +81,36 @@
       "seatsAvailable": 0,
       "price": "1200.00",
       "id": 2
+    },
+    {
+      "flight": "Indigo",
+      "source": "Mumbai",
+      "destination": "Goa",
+      "boarding": "2.00",
+      "departure": "3:50",
+      "seatsAvailable": 15,
+      "price": "2000.00",
+      "id": 3
+    },
+    {
+      "flight": "Airasia",
+      "source": "Kolkata",
+      "destination": "Gujrat",
+      "boarding": "1.00",
+      "departure": "2:50",
+      "seatsAvailable": 7,
+      "price": "2600.00",
+      "id": 4
+    },
+    {
+      "flight": "Kingfisher",
+      "source": "Odisha",
+      "destination": "Banglore",
+      "boarding": "5.00",
+      "departure": "6",
+      "seatsAvailable": 35,
+      "price": "5000.00",
+      "id": 5
     }
   ],
   "booking": [
@@ -142,6 +182,24 @@
       "destination": "Chennai",
       "boarding": "10:30",
       "departure": "11:15"
+    },
+    {
+      "id": 1685891321947,
+      "uid": "1685891167999",
+      "flight": "Emirates",
+      "source": "Bhubaneswar",
+      "destination": "Chennai",
+      "boarding": "10:30",
+      "departure": "11:15"
+    },
+    {
+      "id": 1685902009669,
+      "uid": "1685883444735",
+      "flight": "Airasia",
+      "source": "Kolkata",
+      "destination": "Gujrat",
+      "boarding": "1.00",
+      "departure": "2:50"
     }
   ]
 }
