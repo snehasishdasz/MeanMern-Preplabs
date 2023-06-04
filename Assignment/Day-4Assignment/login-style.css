@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins&display=swap');
-#navbar{
-    background-color:#595e16;
+
+#navbar {
+    background-color: #595e16;
     height: 50px;
     position: sticky;
     top: 0;
-    }
-    #hello{
-        box-shadow: 6px 11px 9px 1px #b2a71a;
-        border: 2px solid white;
-        border-radius: 60px;
-        margin: 10px;
-        padding: -2px;
-        place-content: center;
-        display: grid;
-        gap: 10px;
-        height: 393px;
-        width: 307px;
-        background-color: rgb(0, 0, 0);
-        margin-top: 141px;
-    }
-    #create{
-        background-color: yellow;
+}
+
+#hello {
+    box-shadow: 6px 11px 9px 1px #b2a71a;
+    border: 2px solid white;
+    border-radius: 60px;
+    margin: 10px;
+    padding: -2px;
+    place-content: center;
+    display: grid;
+    gap: 10px;
+    height: 393px;
+    width: 307px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 141px;
+}
+
+#create {
+    background-color: yellow;
     border: 2px rgb(253, 0, 0) solid;
     margin-top: 1px;
     margin-bottom: 8px;
@@ -29,66 +32,77 @@
     cursor: pointer;
     padding: 6px 7px;
     margin-left: 33px;
-    }
-    #create:hover{
-        border: 2px solid green;
-        color: #fff;
+}
+
+#create:hover {
+    border: 2px solid green;
+    color: #fff;
     background-color: black;
-    }
-    span{
-        font-size: 17px;
-        font-family: 'Fira Mono', monospace;
-    }
-    #head2{
-        font-family: 'Fira Mono', monospace;
-        font-size: 25px;
+}
+
+span {
+    font-size: 17px;
+    font-family: 'Fira Mono', monospace;
+}
+
+#head2 {
+    font-family: 'Fira Mono', monospace;
+    font-size: 25px;
     position: fixed;
     top: -8px;
     left: 739px;
-    }
-    #container{
-        
-        margin-top: 157px;
-    }
-    #email{
-        width: 231px;
-        border: 3px solid yellow;
-        height: 24px;
-        border-radius: 10px;
-    }
-    #email:hover{
-        background-color: #545252;
-        color: #000000;
-        
-    }
-    #pass{
-        width: 231px;
-        border: 3px solid yellow;
-        height: 24px;
-        border-radius: 10px;
-    }
-    #pass:hover{
-        background-color: #545252;
-        color: #000000;
-    }
-    body{
+}
+
+#container {
+
+    margin-top: 157px;
+}
+
+#email {
+    width: 231px;
+    border: 3px solid yellow;
+    height: 24px;
+    border-radius: 10px;
+}
+
+#email:hover {
+    background-color: #545252;
+    color: #000000;
+
+}
+
+#pass {
+    width: 231px;
+    border: 3px solid yellow;
+    height: 24px;
+    border-radius: 10px;
+}
+
+#pass:hover {
+    background-color: #545252;
+    color: #000000;
+}
+
+body {
     background-color: #000000;
-    margin: 0 ;
-    color: white ;
-    }
-    .nav-bg{
-        margin-top: 100px;
-        background: #595e16;
-        background-size: cover;
-    }
-    .text-footer{
-        text-align: center;
-        padding: 15px 0px;
-        display: flex;
-        justify-content: center;
-        color: rgb(255, 255, 255);
-    }
-    .nav-bg p{
-        font-size: 20px;
-    }
-    
+    margin: 0;
+    color: white;
+}
+
+.nav-bg {
+    margin-top: 100px;
+    background: #595e16;
+    background-size: cover;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.nav-bg p {
+    font-size: 20px;
+}
