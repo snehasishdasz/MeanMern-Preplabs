@@ -1,0 +1,18 @@
+Day9(08.06.23)
+-read the api documentation
+higher order js functions
+.includes
+.filter
+.find
+.map
+.forEach
+.reduce
+.every
+
+assignments
+-omdb
+-read
+-search(both ways)
+-update
+-delete
+-
