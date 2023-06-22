@@ -13,21 +13,97 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
 }
 
+
+.hover{
+  font-weight: 500;
+  padding-top: 10px;
+  border: 2px solid gray;
+  border-radius:10px;
+  padding: 10px;
+  padding-bottom:10px;
+  
+}
+.hover:hover{
+  background: #90EE90;
+  color: black;
+}
+.button1{
+  margin-top: 20px;
+  margin-left: 30px;
+  
+}
+.button1:hover{
+  background-color: rgb(243, 116, 255);
+  color: black;
+}
+
+.button2{
+  margin-top: 20px;
+  margin-left: 400px;
+  
+}
+.button2:hover{
+  background-color: rgb(119, 198, 251);
+  color: black;
+}
+.const{
+  margin-top: 1rem;
+  margin-left: 200px;
+}
+/* .button3{
+  font-weight: 500;
+  cursor: pointer;
+  background-color:#ff77e8;
+  color: black;
+  font-size: large;
+  border-radius: 9px;
+  padding: 5px ;
+  text-align: center;
+  justify-content: center;
+  width: 600px;
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.button3:hover{
+  background-color: #4CAF50;
+} */
+.button3 {
+  --bg: #000;
+  --hover-bg: #ff90e8;
+  --hover-text: #000;
+  color: #000;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: large;
+  padding: 0.4em 2em;
+  background: var(--hover-bg);
+  transition: 0.2s;
+  text-align: center;
+  width: 595px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 37px;
+}
+
+.button3:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem,-0.25rem);
+  background: #4CAF50;
+  box-shadow: 0.25rem 0.35rem var(--bg);
+}
+
+.button3:active {
+  transform: translate(0);
+  box-shadow: none;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

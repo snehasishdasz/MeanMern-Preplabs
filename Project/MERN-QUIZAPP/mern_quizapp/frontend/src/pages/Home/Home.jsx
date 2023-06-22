@@ -90,7 +90,7 @@ function Home() {
       <Text
         h2 style={{textDecoration:"underline", textShadow:"12px 12px black black"}}
         css={{
-          textGradient: "45deg, $blue600 -20%, $pink600 50%",pl:"4rem", ds:"$lg"
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",pl:"4rem", ds:"$lg" , textAlign: "center"
         }}
         weight="bold"
       >QUIZES</Text>

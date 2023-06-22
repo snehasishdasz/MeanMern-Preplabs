@@ -5,7 +5,7 @@ import Foot from '../../components/Foot';
 import { Container, Button, Text } from '@nextui-org/react';
 import Question from '../../components/Question';
 import { useNavigate } from 'react-router-dom';
-
+import App from "../../App.css"
 
 function Quiz() {
   const [questions,setQuestions] = useState([]);
@@ -56,31 +56,37 @@ function Quiz() {
       <Text
         h2
         css={{
-          textGradient: "45deg, $blue600 -20%, $pink600 50%",pl:"2rem"
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",pl:"2rem" ,textAlign: "center", pt:"1rem"
         }}
         weight="bold"
       >Attempting quiz ...</Text>
-      <Container fluid>
+      <div className='const'>
+
+      
+      <Container fluid >
         
-        {(questions).filter((item)=>{ return item.qno === qno}).map((ele)=>{return <>
-          <Question item={ele}/>
+        {(questions).filter((item)=>{ return item.qno === qno}).map((ele)=>{
+          return <>
+          <Question  item={ele}  />
         </>})}
-
-
-        <hr/>
+        
         {qno === 10 ? (
           <>
-            <Button shadow color="success" auto style={{display:'inline-block'}} onClick={result}>Submit</Button>
+          <div className='button3' onClick={result}>Submit</div>
+            {/* <Button className='button3' shadow color="success" auto style={{display:'inline-block',}} onClick={result}>Submit</Button> */}
           </>
         ) : (
           <>
-            <Button shadow color="success" auto style={{display:'inline-block'}} onClick={save}>Save and Next</Button>
-            <Button shadow color="warning" auto style={{display:'inline-block'}} onClick={next}>Next</Button>
+            <Button className='button1'  color="success" auto style={{display:'inline-block'}} onClick={save}>Save and Next</Button>
+            
+
+            <Button className='button2'  color="warning" auto style={{display:'inline-block'}} onClick={next}>Next</Button>
           </>
         )}
         
       </Container>
-      <Foot/>
+      </div>
+      {/* <Foot/> */}
     </>
   )
 }

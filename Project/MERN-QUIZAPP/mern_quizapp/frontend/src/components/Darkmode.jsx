@@ -7,7 +7,7 @@ function Darkmode() {
 
   return (
     <div>
-      {type}
+      
       <Switch
         checked={isDark}
         onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')}
